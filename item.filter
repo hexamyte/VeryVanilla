@@ -6,7 +6,7 @@
 
 // GOLD - Hide small gold piles. "small" changes with character level
 ItemDisplay[GOLD<20]:
-ItemDisplay[CLVL>7  GOLD<50]:
+ItemDisplay[CLVL>7 GOLD<50]:
 ItemDisplay[CLVL>14 GOLD<100]:
 ItemDisplay[CLVL>21 GOLD<200]:
 ItemDisplay[CLVL>28 GOLD<300]:
