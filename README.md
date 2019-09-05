@@ -15,9 +15,8 @@ Also see KarmaNation256's instructions on how to enable mouse wheel hotkeys:
 
 https://github.com/KarmaNation256/pod-loot-filter/wiki/Adding-Mouse-Wheel-as-a-Hotkey
 
-
-
 ** This is both a readme and notes to myself
+
 
 Basic summary of filter functions:
   - Hide small piles of gold, where "small" is based on character level (not working, but why?)
