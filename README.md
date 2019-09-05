@@ -3,20 +3,12 @@ A very vanilla-esque loot filter for Path of Diablo cobbled together by stea--bo
 
 Main Goal: Take many useless items off the screen and add some differentiating features to certain items without turning the screen into rainbow unicorn barf.
 
-How to install the filter - follow the excellent instructions by KarmaNation256 here:
-
-https://github.com/KarmaNation256/pod-loot-filter/wiki/Installing-Loot-Filter
-
-But use this link the the VeryVanilla filter:
-
+How to install the filter - follow the excellent instructions by KarmaNation256 [here](https://github.com/KarmaNation256/pod-loot-filter/wiki/Installing-Loot-Filter). But use this link the the VeryVanilla filter:
 https://raw.githubusercontent.com/hexamyte/VeryVanilla/master/item.filter
 
-Also see KarmaNation256's instructions on how to enable mouse wheel hotkeys:
-
-https://github.com/KarmaNation256/pod-loot-filter/wiki/Adding-Mouse-Wheel-as-a-Hotkey
+Also see KarmaNation256's instructions on [how to enable mouse wheel hotkeys](https://github.com/KarmaNation256/pod-loot-filter/wiki/Adding-Mouse-Wheel-as-a-Hotkey).
 
 ** This is both a readme and notes to myself
-
 
 Basic summary of filter functions:
   - Hide small piles of gold, where "small" is based on character level (not working, but why?)
