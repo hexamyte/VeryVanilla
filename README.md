@@ -10,22 +10,22 @@ Also see KarmaNation256's instructions on [how to enable mouse wheel hotkeys](ht
 Note: This is both a readme and notes to myself.
 
 **Basic summary of filter functions**:
-  - Hide small piles of gold, where "small" is based on character level (not working, but why?)
+  - Hide small piles of gold, where "small" is based on character level
   - Hide obsolete health/mana potions based on character level
   - Hide all throwable potions and white bolts/arrows after level 9, plus hide all stamina potions period
-  - Show value of white items that can carry inherent skill bonuses (wands, staves, etc) to highlight items with skills
-  - Show rune names in tan rather than white
-  - Hide (most) cracked/broken etc items. Rule showing value for skill items takes precedent, rework both of these.
+  - Make thawing/antidote potions less visible
+  - Show value of white items with implicit skill bonuses (wands, staves, etc) to highlight items with skills
+  - Show rune and gem names in tan rather than white
+  - Hide chipped/flawed/standard gems based on level
+  - Hide (most) cracked/broken etc items. Rule showing value for skill items takes precedent, rework both of these
   - Items with sockets have [#] appended to the name, where # = number of sockets
   - Normal-quality etherial items without sockets are hidden, those with sockets also have [Eth] appended to the name
-  - Items used for runewords have (Runeword) appended to the name, in tan. Untested, not sure how it works. 
+  - Items containing runewords have (Runeword) appended to the name, in tan 
 
 **Ideas "in process" (in no particular order)**:
   - Finish the basic summary of filter functions
   - Replace the readme with a wiki (learn how to use GitHub properly...)
   - Highlight POD-specific items
-  - Fix the gold filters
-  - Adjust inferior and "skill-item" (wand, barb helm, etc) filters to hide more skill-items. Item value gates?
+  - Adjust inferior and "skill-item" (wand, barb helm, etc) filters to hide more skill-items
   - Hide more normal, no-socket items based on level
   - Make sure to show etherial items that would be worth socketing with Larzuk
-  - Figure out how the RW (runeword) item tag works. Is it items useful for runewords, or items containing runewords?
