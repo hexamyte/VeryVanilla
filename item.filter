@@ -51,7 +51,7 @@ ItemDisplay[r31 OR r32 OR r33]: %TAN%%NAME%
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc]: %TAN%%NAME% //Chipped
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]: %TAN%%NAME% //Flawed
 ItemDisplay[gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku]: %TAN%%NAME% //Standard
-ItemDisplay[glv OR gly OR glb OR glg OR glr OR glw OR skl]: %TAN%%NAME% //Flawless
+ItemDisplay[gzv OR gly OR glb OR glg OR glr OR glw OR skl]: %TAN%%NAME% //Flawless
 ItemDisplay[gpv OR gpy OR gpb OR gpg OR gpr OR gpw OR skz]: %TAN%%NAME% //Perfect
 
 // WANDS, SCEPTERS, ETC - White items that can carry skill bonuses will show selling price
