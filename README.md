@@ -16,7 +16,6 @@ Note: This is both a readme and notes to myself.
   - Make thawing/antidote potions less visible
   - Show value of white items with implicit skill bonuses (wands, staves, etc) to highlight items with skills
   - Show rune and gem names in tan rather than white
-  - Hide chipped/flawed/standard gems based on level
   - Hide (most) cracked/broken etc items. Rule showing value for skill items takes precedent, rework both of these
   - Items with sockets have [#] appended to the name, where # = number of sockets
   - Normal-quality etherial items without sockets are hidden, those with sockets also have [Eth] appended to the name
