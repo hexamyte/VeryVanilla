@@ -44,9 +44,9 @@ ItemDisplay[r21 OR r22 OR r23 OR r24 OR r25 OR r26 OR r27 OR r28 OR r29 OR r30]:
 ItemDisplay[r31 OR r32 OR r33]: %TAN%%NAME%
 
 // GEMS - Hide Chipped/flawed/standard gems based on level. Show all gem names in tan
-ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc AND CLVL>19]: //Chipped
-ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf AND CLVL>29]: //Flawed
-ItemDisplay[gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku AND CLVL>59]: //Standard
+//ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc AND CLVL>19]: //Chipped
+//ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf AND CLVL>29]: //Flawed
+//ItemDisplay[gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku AND CLVL>59]: //Standard
 
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc]: %TAN%%NAME% //Chipped
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]: %TAN%%NAME% //Flawed
