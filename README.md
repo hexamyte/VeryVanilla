@@ -13,13 +13,11 @@ Note: This is both a readme and notes to myself.
   - Hide small piles of gold, where "small" is based on character level
   - Hide obsolete health/mana potions based on character level
   - Hide all throwable potions and white bolts/arrows after level 9, plus hide all stamina potions period
-  - Make thawing/antidote potions less visible
   - Show value of white items with implicit skill bonuses (wands, staves, etc) to highlight items with skills
   - Show rune and gem names in tan rather than white
   - Hide (most) cracked/broken etc items. Rule showing value for skill items takes precedent, rework both of these
   - Items with sockets have [#] appended to the name, where # = number of sockets
   - Normal-quality etherial items without sockets are hidden, those with sockets also have [Eth] appended to the name
-  - Items containing runewords have (Runeword) appended to the name, in tan 
 
 **Ideas "in process" (in no particular order)**:
   - Finish the basic summary of filter functions
