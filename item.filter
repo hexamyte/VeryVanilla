@@ -19,17 +19,17 @@ ItemDisplay[CLVL>80 GOLD<2000]:
 // HEALTH AND MANA POTIONS - Hide health/mana potions based on character level
 // Never hides Super healing/mana potions and never hides rejuvenation potions
 ItemDisplay[(hp1 OR mp1) CLVL>11]: // Hide minor potions after level 11
-ItemDisplay[(hp2 OR mp2) CLVL>21]: // Hide light potions after level 21
-ItemDisplay[(hp3 OR mp3) CLVL>31]: // Hide regular potions after level 31
-ItemDisplay[(hp4 OR mp4) CLVL>61]: // Hide greater potions after level 61
+ItemDisplay[(hp2 OR mp2) CLVL>20]: // Hide light potions after level 20
+ItemDisplay[(hp3 OR mp3) CLVL>28]: // Hide regular potions after level 28
+ItemDisplay[(hp4 OR mp4) CLVL>50]: // Hide greater potions after level 50
 
 // THROWABLE POTIONS - exploding etc. Hide them all after level 10
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>10]:
 
-// STAMINA/THAWING/ANTIDOTE POTIONS - Hide stamina, make others less visible
+// STAMINA/THAWING/ANTIDOTE POTIONS - Hide stamina potions
 ItemDisplay[vps]: 
-ItemDisplay[wms]: %BLACK%%NAME%
-ItemDisplay[yps]: %BLACK%%NAME%
+// ItemDisplay[wms]: %BLACK%%NAME%
+// ItemDisplay[yps]: %BLACK%%NAME%
 
 // ARROWS AND BOLTS - hide white arrows and bolts after level 9
 ItemDisplay[(aq2 OR cq2) (NMAG) CLVL>9]:
@@ -73,21 +73,24 @@ ItemDisplay[INF]: // hide inferior items ALWAYS
 
 // NORMAL (TIER 1) ITEMS
 ItemDisplay[NORM NMAG ETH !RW SOCK=0]: 
-ItemDisplay[NORM NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%]
+ItemDisplay[NORM NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]
 ItemDisplay[NORM NMAG !RW SOCK>0]: %GRAY%%NAME% [%SOCKETS%]
-ItemDisplay[NORM ETH RW]: %GRAY%%NAME% [Eth] %TAN%(Runeword)
-ItemDisplay[NORM RW]: %NAME% %TAN%(Runeword)
+ItemDisplay[NORM SUP ETH !RW SOCK=0]:
+ItemDisplay[NORM SUP ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]
+ItemDisplay[NORM ETH]: %NAME% [Eth]
 
 // EXCEPTIONAL (TIER 2) ITEMS - Add 1 asterisk to designate tier
 ItemDisplay[EXC NMAG ETH !RW SOCK=0]: 
 ItemDisplay[EXC NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%]*
 ItemDisplay[EXC NMAG !RW SOCK>0]: %GRAY%%NAME% [%SOCKETS%]*
-ItemDisplay[EXC ETH RW]: %GRAY%%NAME% [Eth] %TAN%(Runeword)*
-ItemDisplay[EXC RW]: %NAME% %TAN%(Runeword)*
+ItemDisplay[EXC SUP ETH !RW SOCK=0]:
+ItemDisplay[EXC SUP ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]*
+ItemDisplay[EXC ETH]: %NAME% [Eth]*
 
 // ELITE (TIER 3) ITEMS - Add 2 asterisks to designate tier
 ItemDisplay[ELT NMAG ETH !RW SOCK=0]: 
 ItemDisplay[ELT NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%]**
 ItemDisplay[ELT NMAG !RW SOCK>0]: %GRAY%%NAME% [%SOCKETS%]**
-ItemDisplay[ELT ETH RW]: %GRAY%%NAME% [Eth] %TAN%(Runeword)**
-ItemDisplay[ELT RW]: %NAME% %TAN%(Runeword)**
+ItemDisplay[ELT SUP ETH !RW SOCK=0]:
+ItemDisplay[EXC SUP ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]**
+ItemDisplay[EXC ETH]: %NAME% [Eth]**
