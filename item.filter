@@ -17,8 +17,8 @@ ItemDisplay[CLVL>70 GOLD<1500]:
 ItemDisplay[CLVL>80 GOLD<2000]:
 
 // SCROLLS - Town portal and identify - abbreviate names
-ItemDisplay[tsc]: TP Scroll
-ItemDisplay[isc]: ID Scroll
+ItemDisplay[tsc]: Town Portal
+ItemDisplay[isc]: Identify
 
 // HEALTH AND MANA POTIONS - Hide health/mana potions based on character level
 // Never hides Super healing/mana potions and never hides rejuvenation potions
@@ -27,16 +27,16 @@ ItemDisplay[(hp1 OR mp1) CLVL>11]: // Hide minor potions after level 11
 ItemDisplay[(hp2 OR mp2) CLVL>20]: // Hide light potions after level 20
 ItemDisplay[(hp3 OR mp3) CLVL>28]: // Hide regular potions after level 28
 ItemDisplay[(hp4 OR mp4) CLVL>50]: // Hide greater potions after level 50
-ItemDisplay[hp1]: %RED%[%WHITE%HP 1%RED%]
-ItemDisplay[hp2]: %RED%[%WHITE%HP 2%RED%]
-ItemDisplay[hp3]: %RED%[%WHITE%HP 3%RED%]
-ItemDisplay[hp4]: %RED%[%WHITE%HP 4%RED%]
-ItemDisplay[hp5]: %RED%[%WHITE%HP 5%RED%]
-ItemDisplay[mp1]: %BLUE%[%WHITE%MP 1%BLUE%]
-ItemDisplay[mp2]: %BLUE%[%WHITE%MP 2%BLUE%]
-ItemDisplay[mp3]: %BLUE%[%WHITE%MP 3%BLUE%]
-ItemDisplay[mp4]: %BLUE%[%WHITE%MP 4%BLUE%]
-ItemDisplay[mp5]: %BLUE%[%WHITE%MP 5%BLUE%]
+ItemDisplay[hp1]: Minor Healing
+ItemDisplay[hp2]: Lesser Healing
+ItemDisplay[hp3]: Healing
+ItemDisplay[hp4]: Greater Healing
+ItemDisplay[hp5]: Super Healing
+ItemDisplay[mp1]: Minor Mana
+ItemDisplay[mp2]: Lesser Mana
+ItemDisplay[mp3]: Mana
+ItemDisplay[mp4]: Greater Mana
+ItemDisplay[mp5]: Super Mana
 
 // THROWABLE POTIONS - exploding etc. Hide them all after level 10
 ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>10]:
