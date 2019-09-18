@@ -87,25 +87,20 @@ ItemDisplay[INF]: // hide inferior items ALWAYS
 // Hide nonmagical etherial items with no sockets
 
 // NORMAL (TIER 1) ITEMS
-ItemDisplay[NORM NMAG ETH !RW SOCK=0]: 
 ItemDisplay[NORM NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]
 ItemDisplay[NORM NMAG !RW SOCK>0]: %GRAY%%NAME% [%SOCKETS%]
-ItemDisplay[NORM SUP ETH !RW SOCK=0]:
 ItemDisplay[NORM SUP ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]
 ItemDisplay[NORM ETH]: %NAME% [Eth]
+ItemDisplay[NORM NMAG !RW !SUP CLVL>20]: //Hide plain whites tier1 after lvl 20
 
 // EXCEPTIONAL (TIER 2) ITEMS - Add 1 asterisk to designate tier
-ItemDisplay[EXC NMAG ETH !RW SOCK=0]: 
 ItemDisplay[EXC NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%]*
 ItemDisplay[EXC NMAG !RW SOCK>0]: %GRAY%%NAME% [%SOCKETS%]*
-ItemDisplay[EXC SUP ETH !RW SOCK=0]:
 ItemDisplay[EXC SUP ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]*
 ItemDisplay[EXC ETH]: %NAME% [Eth]*
 
 // ELITE (TIER 3) ITEMS - Add 2 asterisks to designate tier
-ItemDisplay[ELT NMAG ETH !RW SOCK=0]: 
 ItemDisplay[ELT NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%]**
 ItemDisplay[ELT NMAG !RW SOCK>0]: %GRAY%%NAME% [%SOCKETS%]**
-ItemDisplay[ELT SUP ETH !RW SOCK=0]:
 ItemDisplay[EXC SUP ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]**
 ItemDisplay[EXC ETH]: %NAME% [Eth]**
