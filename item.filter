@@ -87,6 +87,7 @@ ItemDisplay[INF]: // hide inferior items ALWAYS
 // Hide nonmagical etherial items with no sockets
 
 // NORMAL (TIER 1) ITEMS
+ItemDisplay[NORM ETH SOCK=0 !RW]: %GRAY%%NAME% [Eth]
 ItemDisplay[NORM NMAG ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]
 ItemDisplay[NORM NMAG !RW SOCK>0]: %GRAY%%NAME% [%SOCKETS%]
 ItemDisplay[NORM SUP ETH !RW]: %GRAY%%NAME% [%SOCKETS%][Eth]
